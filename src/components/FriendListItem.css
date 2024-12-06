@@ -1,0 +1,16 @@
+.friend-card {
+  border: 2px solid #000;
+  border-radius: 4px;
+  display: inline-block;
+  padding: 24px 24px;
+  background-color: aliceblue;
+  text-align: center;
+}
+
+.online {
+  color: forestgreen;
+}
+
+.offline {
+  color: red;
+}

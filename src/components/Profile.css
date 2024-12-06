@@ -1,0 +1,29 @@
+.profile-card {
+  border: 2px solid #000;
+  border-radius: 4px;
+  display: inline-block;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px 48px;
+  background-color: aliceblue;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-stats {
+  display: flex;
+  gap: 16px;
+  padding-left: 0;
+  margin: 0;
+}
+
+.profile-stats-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}

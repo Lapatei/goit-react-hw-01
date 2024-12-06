@@ -1,0 +1,23 @@
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.friends-list {
+  display: flex;
+  gap: 16px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+img {
+  display: block;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
