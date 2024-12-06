@@ -1,6 +1,6 @@
 import Profile from './Profile.jsx';
 import userData from '../userData.json';
-import FriendListItem from './FriendListItem.jsx';
+import FriendList from './FriendList.jsx';
 import friends from '../friends.json';
 import TransactionHistory from './TransactionHistory.jsx';
 import transactions from '../transactions.json';
@@ -16,15 +16,9 @@ export default function App() {
       image={userData.avatar}
       stats={userData.stats}
       />
-      <ul className='friends-list'>
-        {friends.map(friend => (
-        <li key={friend.id}>
-          <FriendListItem
-              friends={friend}
-            />
-        </li>
-        ))}
-      </ul>
+      <FriendList
+        friends={friends}
+      />
       <TransactionHistory
         items={transactions}
       />
